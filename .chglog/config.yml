@@ -5,20 +5,22 @@ info:
   repository_url: http://gitlab.elta.tv/chi/gitflow
 options:
   commits:
-    # filters:
-    #   Type:
-    #     - feat
-    #     - fix
-    #     - perf
-    #     - refactor
+      filters:
+        Type:
+          - feat
+          - fix
+          - perf
+          - refactor
+          - chore
   commit_groups:
-    # title_maps:
-    #   feat: Features
-    #   fix: Bug Fixes
-    #   perf: Performance Improvements
-    #   refactor: Code Refactoring
+      title_maps:
+        feat: Features
+        fix: Bug Fixes
+        perf: Performance Improvements
+        refactor: Code Refactoring
+        chore: Maintain Tools  
   header:
-    pattern: "^(<\\w*>)\\:\\s(.*)$"
+    pattern: "^<(\\w*)>\\:\\s(.*)$"
     pattern_maps:
       - Type
       - Subject
