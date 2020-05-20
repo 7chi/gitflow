@@ -1,0 +1,33 @@
+# <type>: (If applied, this commit will...) <subject> (Max 50 char)
+# |<----  Using a Maximum Of 50 Characters  ---->|
+
+
+# Explain why this change is being made
+# |<----   Try To Limit Each Line to a Maximum Of 72 Characters   ---->|
+
+# Provide links or keys to any relevant tickets, articles or other resources
+# Example: Github issue #23
+
+# --- COMMIT END ---
+# Type can be
+#    feat: 新增/修改功能 (feature)
+#    fix: 修補 bug (bug fix)。
+#    docs: 文件 (documentation)。
+#    style: 格式 (不影響程式碼運行的變動 white-space, formatting, missing semi colons, etc)。
+#    refactor: 重構 (既不是新增功能，也不是修補 bug 的程式碼變動)。
+#    perf: 改善效能 (A code change that improves performance)。
+#    test: 增加測試 (when adding missing tests)。
+#    chore: 建構程序或輔助工具的變動 (maintain, grunt, composer, npm)。
+#    revert: 撤銷回復先前的 commit 例如：revert: type(scope): subject (回復版本：xxxx)。
+# --------------------
+# Remember to
+#    Capitalize the subject line
+#    Use the imperative mood in the subject line
+#    Do not end the subject line with a period
+#    Separate subject from body with a blank line
+#    Use the body to explain what and why vs. how
+#    Can use multiple lines with "-" for bullet points in body
+# --------------------
+# For more information about this template, check out
+# https://gist.github.com/adeekshith/cd4c95a064977cdc6c50
+
